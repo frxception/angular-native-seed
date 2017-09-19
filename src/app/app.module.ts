@@ -14,7 +14,7 @@ Config.PLATFORM_TARGET = Config.PLATFORMS.WEB;
 export function createTranslateLoader(http: Http) {
     return new TranslateHttpLoader(<any>http, './assets/i18n/', '.json');
 }
-
+//FRX: ANOTHER TEST BLA BLA
 @NgModule({
     declarations: [ AppComponent ],
     imports: [
