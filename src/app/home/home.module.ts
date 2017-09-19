@@ -1,4 +1,4 @@
-import { NgModule, Optional, SkipSelf } from '@angular/core';
+import { NgModule, Optional, SkipSelf, NO_ERRORS_SCHEMA } from '@angular/core';
 // app
 import { HomeComponent } from './components/home/home.component';
 import { SHARED_MODULES } from './home.common';
